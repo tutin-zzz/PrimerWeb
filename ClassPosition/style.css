@@ -4,6 +4,6 @@
     padding: 0;
 }
 
-.parent {
-    border: 2px black dotted;
+html {
+    font-size: 62.5%;
 }
