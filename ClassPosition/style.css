@@ -6,4 +6,42 @@
 
 html {
     font-size: 62.5%;
+    background-color: black;
+}
+
+.contenedor {
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+.burbuja {
+position: relative;
+background-color: #ffffff;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(147, 15, 15, 0.92);
+overflow: hidden;
+margin: 0%;
+}
+
+h2{
+    position: relative;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #12803c9f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(27, 43, 19, 0.605);
+}
+img{
+width: 100%;
+display: block;
+margin-bottom: 10px;
+}
+.subtitulos h3 {
+    margin-top: 0;
+}
+.subtitulos p {
+    margin-bottom: 10px;
 }
