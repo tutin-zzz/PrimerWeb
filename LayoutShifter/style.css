@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    /* Para utilizar rem */
+    font-size: 62.5%;
+}
+.conteiner {
+    display: flex;
+     /*Para que el contenido se puedan reposicionar en caso de que el
+    tamaño lo permita en la medida que aumente el tamaño de pantalla*/
+    flex-wrap: wrap;
+}
+.CAJA1, .CAJA2, .CAJA3, .CAJA4, .CAJA5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.CAJA4 {
+    height: auto;
+}
+.CAJA1{
+    background-color: rgb(37, 48, 138);
+}
+.CAJA2{
+    background-color: rgb(197, 115, 16);
+}
+.CAJA3{
+    background-color: rgb(195, 31, 162);
+}
+.CAJA4{
+    background-color: rgb(40, 206, 218);
+}
+.CAJA5{
+    background-color: rgb(40, 42, 43);
+}
+/* Breakpoint 600px */
+@media (min-width: 600px){
+    .CAJA1{
+        width: 25%;
+    }
+    .CAJA2{
+        width: 75%;
+    }
+    .CAJA4{
+        width: 100px;
+    }
+}
+/* Breakpoint 800px */
+@media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .c1 {
+        width: 50%;
+        order: 1;
+    }
+    .c4 {
+        width: 100%;
+    }
+    .c5 {
+        width: 50%;
+        order: 2;
+    }
+}
